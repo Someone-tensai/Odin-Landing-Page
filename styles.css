@@ -42,6 +42,7 @@ body {
 a {
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
 }
 
 .header {
@@ -121,4 +122,33 @@ a {
 .third .quoter {
     align-self: flex-end;
     font-weight: bold;
+}
+
+/* Fourth Section */
+.fourth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 196px 64px 196px;
+}
+
+.container{
+    display: flex;
+    background-color: #3882f6;
+    padding: 32px 96px 32px 96px;
+    border-radius: 10px;
+    align-items: center;
+    gap: 96px;
+}
+.call {
+    color: white;
+    font-weight: bold;
+}
+.sub-call {
+    color: white;
+    font-size: 14px;
+}
+
+.container .sign-up {
+    border: 3px solid white;
 }
