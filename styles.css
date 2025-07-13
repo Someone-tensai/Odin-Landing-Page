@@ -7,9 +7,10 @@ body {
     padding: 20px 196px 100px 196px;
 }
 
-.first, .logo-links, .first-mid, .second , .information, .third{
+.first, .logo-links, .first-mid, .second , .information, .third , .footer{
     display: flex;
 }
+
 /* First Section */
 
 .first {
@@ -151,4 +152,13 @@ a {
 
 .container .sign-up {
     border: 3px solid white;
+}
+
+/* Footer */
+.footer {
+    color: white;
+    padding: 32px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937 ;
 }
